@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #1e293b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  background: #38bdf8;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+section {
+  padding: 60px 50px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.skills-grid div {
+  background: #1e293b;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+}

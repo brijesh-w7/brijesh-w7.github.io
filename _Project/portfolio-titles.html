@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Projects | Brijesh Kumar Vaishya</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/bundle.css">
+  <link rel="stylesheet" href="css/hody-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Source+Sans+Pro:300,400|Kaushan+Script|Lora|Playfair+Display:700"
+    rel="stylesheet" type="text/css">
+  <style type="text/css">
+    @media only screen and (min-width: 992px) {
+      #footer2 {
+        z-index: 1;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .boxed-layout #footer2 {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+      }
+
+      .boxed-layout #footer2 .footer-widgets2,
+      .boxed-layout #footer2 .footer-copy {
+        background-color: #fff;
+      }
+
+      .boxed-layout #footer2 .container {
+        width: 1140px;
+      }
+    }
+
+    .footer-widgets2 {
+      position: relative;
+      padding-top: 80px;
+      padding-bottom: 0;
+      background-color: #f7f7f7;
+    }
+
+    .footer-widgets2 .widget>h5 {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .footer-widgets2 .widget+.widget {
+      margin-top: 25px;
+    }
+
+    .footer-widgets2 .widget ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .footer-widgets2 .widget ul>li {
+      padding: 5px 0;
+    }
+
+    .footer-widgets2 .widget ul>li>a {
+      font-size: 15px;
+      color: #6c6c6c;
+    }
+
+    .footer-widgets2 .widget ul>li>a:hover {
+      color: #76c164;
+    }
+
+    .footer-widgets2 .widget .tagcloud a {
+      border-color: #c5c5c5;
+      color: #5f5f5f;
+    }
+
+    .footer-widgets2 .widget .tagcloud a:hover {
+      background-color: #76c164;
+      border-color: #76c164;
+      color: #fff;
+    }
+
+    @media only screen and (max-width: 991px) {
+      .footer-widgets2 .widget {
+        margin-bottom: 50px;
+      }
+
+      .footer-widgets2 .widget>h5 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .footer-logo img {
+      max-width: 140px;
+    }
+
+    .footer-copy {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      position: relative;
+      background-color: #76c164;
+      border-top: 1px solid rgba(31, 31, 31, 0.08);
+    }
+
+    @media only screen and (max-width: 991px) {
+
+      .footer-copy .copy-text,
+      .footer-copy .social-list {
+        text-align: center;
+      }
+
+      .footer-copy .social-list {
+        margin-bottom: 25px;
+      }
+    }
+
+    .copy-text {
+      text-align: right;
+    }
+
+    .copy-text p {
+      margin: 0;
+      color: #fff;
+    }
+
+    @media only screen and (max-width: 991px) {
+      .footer-spacer {
+        display: none;
+      }
+    }
+
+    #footer2.dark-footer .footer-widgets2 {
+      background-color: #1f1f1f;
+      color: #fff;
+    }
+
+    #footer2.dark-footer .footer-widgets2:before {
+      -webkit-filter: invert(1);
+      filter: invert(1);
+      opacity: .6;
+    }
+
+    #footer2.dark-footer .footer-widgets2 .widget>h5 {
+      color: #fff;
+    }
+
+    #footer2.dark-footer .footer-widgets2 .widget ul>li>a {
+      color: #bbb;
+    }
+
+    #footer2.dark-footer .footer-widgets2 .widget ul>li>a:hover {
+      color: #76c164;
+    }
+
+    #footer2.dark-footer .footer-widgets2 .widget .tagcloud a {
+      color: #fff;
+    }
+
+    .bascolor {
+      background-color: #76c164;
+      padding: 80px 0;
+      position: relative;
+    }
+
+    .emailsocial {
+      font-family: 'Brans';
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 4rem;
+      padding: 0 15px;
+    }
+
+    .email ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .email ul li {
+      display: block;
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .email ul li p {
+      font-size: 2rem;
+      letter-spacing: 1px;
+      color: #000;
+      font-family: 'Source Sans Pro', sans-serif;
+      margin: 0;
+    }
+
+    .email ul li a {
+      font-size: 3rem;
+      letter-spacing: 1px;
+      color: #fff;
+    }
+
+    .socialMedia ul {
+      display: block;
+      list-style: none;
+    }
+
+    .socialMedia ul li {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 1rem;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #000;
+      text-align: center;
+    }
+
+    .socialMedia ul li a i {
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .boxed-layout #wrapper {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+      }
+
+      .boxed-layout #wrapper .container {
+        width: 1140px;
+      }
+    }
+
+    .ftbanner img {
+      max-height: 100%;
+      width: 100%;
+    }
+
+    .nav li>a {
+      color: #76c164 !important;
+    }
+
+    .slide-wrap {
+      position: relative;
+      display: table;
+      width: 100% !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <nav id="navbar" style="background-color: #fff;;">
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html">
+              <img class="logo-light" src="brijesh-img.png" alt="">
+              <img class="logo-dark" src="brijesh-img.png" alt="">
+            </a>
+          </div>
+          <div class="menu-extras">
+            <div class="menu-item">
+              <div class="header-socials">
+
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="nav-toggle">
+                <a class="menu-toggle" href="#">
+                  <div class="hamburger">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <section></section>
+    <section>
+
+      <div class="container">
+        <div class="row">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+          <!-- Item ==============>>>.                ========================= -->
+          <div class="with-spacing four-col items" id="works-grid">
+            <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+              <div class="card">
+                <div class="content">
+                  <div class="front">
+                    <img class="profile" width="100%" src="images/game_icons/ludo.png">
+                  </div>
+                  <div class="back from-bottom">
+                    <a>
+                      <h2>Ludo SuperStar</h2>
+                    </a>
+                    <div class="stores-btn">
+                      <a href="https://play.google.com/store/apps/details?id=com.blacklightsw.ludo" target="_blank">
+                        <img src="./images/play-buttons.png" alt="" srcset="">
+                      </a>
+                      <a href="https://apps.apple.com/us/app/ludo-superstar/id1314264574" target="_blank">
+                        <img src="./images/store-buttons.png" alt="" srcset="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item ==============>>>.                ========================= -->
+            <div class="with-spacing four-col items" id="works-grid">
+              <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                <div class="card">
+                  <div class="content">
+                    <div class="front">
+                      <img class="profile" width="100%" src="images/game_icons/carrom.png">
+                    </div>
+                    <div class="back from-bottom">
+                      <a>
+                        <h2>Carrom SuperStar</h2>
+                      </a>
+                      <div class="stores-btn">
+                        <a href="https://play.google.com/store/apps/details?id=com.blacklight.carrom.multiplayer"
+                          target="_blank">
+                          <img src="./images/play-buttons.png" alt="" srcset="">
+                        </a>
+                        <a href="https://apps.apple.com/us/app/carrom-3d-superstar/id1406228827" target="_blank">
+                          <img src="./images/store-buttons.png" alt="" srcset="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item ==============>>>.                ========================= -->
+              <div class="with-spacing four-col items" id="works-grid">
+                <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                  <div class="card">
+                    <div class="content">
+                      <div class="front">
+                        <img class="profile" width="100%" src="images/game_icons/supermarket_empire.png">
+                      </div>
+                      <div class="back from-bottom">
+                        <a>
+                          <h2>Idle Supermarket Empire</h2>
+                        </a>
+                        <div class="stores-btn">
+                          <a href="https://play.google.com/store/apps/details?id=com.egl.android.supermarketempire"
+                            target="_blank">
+                            <img src="./images/play-buttons.png" alt="" srcset="">
+                          </a>
+                          <a href="https://apps.apple.com/my/app/idle-supermarket-empire/id6743112581" target="_blank">
+                            <img src="./images/store-buttons.png" alt="" srcset="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item ==============>>>.                ========================= -->
+                <div class="with-spacing four-col items" id="works-grid">
+                  <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                    <div class="card">
+                      <div class="content">
+                        <div class="front">
+                          <img class="profile" width="100%" src="images/game_icons/airport_empire.png">
+                        </div>
+                        <div class="back from-bottom">
+                          <a>
+                            <h2>Idle Airport Empire </h2>
+                          </a>
+                          <div class="stores-btn">
+                            <a href="https://play.google.com/store/apps/details?id=com.egl.android.airportempire"
+                              target="_blank">
+                              <img src="./images/play-buttons.png" alt="" srcset="">
+                            </a>
+                            <a href="https://apps.apple.com/my/app/airport-empire-idle/id6740759555" target="_blank">
+                              <img src="./images/store-buttons.png" alt="" srcset="">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Item ==============>>>.                ========================= -->
+                  <div class="with-spacing four-col items" id="works-grid">
+                    <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                      <div class="card">
+                        <div class="content">
+                          <div class="front">
+                            <img class="profile" width="100%" src="images/game_icons/weapon_master.png">
+                          </div>
+                          <div class="back from-bottom">
+                            <a>
+                              <h2>Idle Weapon Master </h2>
+                            </a>
+                            <div class="stores-btn">
+                              <a href="https://play.google.com/store/apps/details?id=com.egl.weaponmaster"
+                                target="_blank">
+                                <img src="./images/play-buttons.png" alt="" srcset="">
+                              </a>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Item ==============>>>.                ========================= -->
+                    <div class="with-spacing four-col items" id="works-grid">
+                      <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                        <div class="card">
+                          <div class="content">
+                            <div class="front">
+                              <img class="profile" width="100%" src="images/game_icons/princess_tower.png">
+                            </div>
+                            <div class="back from-bottom">
+                              <a>
+                                <h2>Idle Princess Defense</h2>
+                              </a>
+                              <div class="stores-btn">
+                                <a href="https://play.google.com/store/apps/details?id=com.egl.android.balloondefense"
+                                  target="_blank">
+                                  <img src="./images/play-buttons.png" alt="" srcset="">
+                                </a>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Item ==============>>>.                ========================= -->
+                      <div class="with-spacing four-col items" id="works-grid">
+                        <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                          <div class="card">
+                            <div class="content">
+                              <div class="front">
+                                <img class="profile" width="100%" src="images/game_icons/pool_match.png">
+                              </div>
+                              <div class="back from-bottom">
+                                <a>
+                                  <h2>Pool Match Jam</h2>
+                                </a>
+                                <div class="stores-btn">
+                                  <a href="https://apps.apple.com/my/app/pool-match-jam-puzzle-game/id6572292976"
+                                    target="_blank">
+                                    <img src="./images/store-buttons.png" alt="" srcset="">
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Item ==============>>>.                ========================= -->
+                        <div class="with-spacing four-col items" id="works-grid">
+                          <div class="column work-item app" data-category="category4" data-subcategory="subcategory46">
+                            <div class="card">
+                              <div class="content">
+                                <div class="front">
+                                  <img class="profile" width="100%" src="images/game_icons/fashion_influencer.png">
+                                </div>
+                                <div class="back from-bottom">
+                                  <a>
+                                    <h2>Fashion Influencer</h2>
+                                  </a>
+                                  <div class="stores-btn">
+                                    <a href="https://play.google.com/store/apps/details?id=com.egl.android.fashioninfluencer"
+                                      target="_blank">
+                                      <img src="./images/play-buttons.png" alt="" srcset="">
+                                    </a>
+                                    <a href="https://apps.apple.com/my/app/fashion-influencer-dress-up/id6503282642"
+                                      target="_blank">
+                                      <img src="./images/store-buttons.png" alt="" srcset="">
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Item ==============>>>.                ========================= -->
+                          <div class="with-spacing four-col items" id="works-grid">
+                            <div class="column work-item app" data-category="category4"
+                              data-subcategory="subcategory46">
+                              <div class="card">
+                                <div class="content">
+                                  <div class="front">
+                                    <img class="profile" width="100%" src="images/game_icons/cross_word.png">
+                                  </div>
+                                  <div class="back from-bottom">
+                                    <a>
+                                      <h2>Word Search: Crossword</h2>
+                                    </a>
+                                    <div class="stores-btn">
+                                      <a href="https://play.google.com/store/apps/details?id=com.egl.android.wordtravel"
+                                        target="_blank">
+                                        <img src="./images/play-buttons.png" alt="" srcset="">
+                                      </a>
+                                      <a href="https://apps.apple.com/my/app/word-search-crossword-wonders/id1671991075"
+                                        target="_blank">
+                                        <img src="./images/store-buttons.png" alt="" srcset="">
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Item ==============>>>.                ========================= -->
+                            <div class="with-spacing four-col items" id="works-grid">
+                              <div class="column work-item app" data-category="category4"
+                                data-subcategory="subcategory46">
+                                <div class="card">
+                                  <div class="content">
+                                    <div class="front">
+                                      <img class="profile" width="100%" src="images/game_icons/block_match.png">
+                                    </div>
+                                    <div class="back from-bottom">
+                                      <a>
+                                        <h2>Block Match Puzzle</h2>
+                                      </a>
+                                      <div class="stores-btn">
+                                        <a href="https://play.google.com/store/apps/details?id=com.egl.android.blockpuzzle"
+                                          target="_blank">
+                                          <img src="./images/play-buttons.png" alt="" srcset="">
+                                        </a>
+                                        <a href="https://apps.apple.com/us/app/ludo-superstar/id1314264574"
+                                          target="_blank">
+                                          <img src="./images/store-buttons.png" alt="" srcset="">
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Item ==============>>>.                ========================= -->
+                              <div class="with-spacing four-col items" id="works-grid">
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory46">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <img class="profile" width="100%" src="images/game_icons/sopo_icon.png">
+                                      </div>
+                                      <div class="back from-bottom">
+                                        <a>
+                                          <h2>Sopo Squad</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.dyadgames.sopobubbleshoot"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+                                          <a href="https://apps.apple.com/us/app/sopo-squads-pet-popper-party/id1563548734"
+                                            target="_blank">
+                                            <img src="./images/store-buttons.png" alt="" srcset="">
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Item ==============>>>.                ========================= -->
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory46">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <img class="profile" width="100%" src="images/game_icons/laurenz.png">
+
+                                      </div>
+                                      <div class="back from-bottom">
+                                        <a>
+                                          <h2>Lauren Z Side</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.dyadgames.LaurenPuzzle"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+                                          <a href="https://apps.apple.com/us/app/laurenzsides-lucky-lunar-leap/id1563548533"
+                                            target="_blank">
+                                            <img src="./images/store-buttons.png" alt="" srcset="">
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Item ==============>>>.                ========================= -->
+
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory46">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <img class="profile" width="100%" src="images/game_icons/megans_icon.png">
+                                      </div>
+                                      <div class="back from-bottom">
+
+                                        <a>
+                                          <h2>Megan's Cute Candy Celebration!</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.DyadGames.MegansMatch3"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+                                          <a href="https://apps.apple.com/us/app/megans-cute-candy-celebration/id1563548620"
+                                            target="_blank">
+                                            <img src="./images/store-buttons.png" alt="" srcset="">
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Item ==============>>>.                ========================= -->
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory46">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <img class="profile" width="100%" src="images/game_icons/wow_icon.png">
+                                      </div>
+                                      <div class="back from-bottom">
+
+                                        <a>
+                                          <h2>Anagram Word Puzzles</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordsoftheworld"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+                                          <a href="https://apps.apple.com/us/app/words-of-the-world/id1511574238"
+                                            target="_blank">
+                                            <img src="./images/store-buttons.png" alt="" srcset="">
+                                          </a>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <!-- Item ==============>>>.                ========================= -->
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory44">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <a href=""><img class="profile" width="100%"
+                                            src="images/game_icons/would_you_rather_icon.png"></a>
+                                      </div>
+                                      <div class="back from-bottom">
+
+                                        <a>
+                                          <h2>Would You Rather</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.dreamlabentertainment.wouldyourather"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!--__________________________________________________________________________________________________________________-->
+                                <!-- Item ==============>>>.                ========================= -->
+                                <div class="column work-item app" data-category="category4"
+                                  data-subcategory="subcategory44">
+                                  <div class="card">
+                                    <div class="content">
+                                      <div class="front">
+                                        <a href=""><img class="profile" width="100%"
+                                            src="images/game_icons/cocky_car.png"></a>
+                                      </div>
+                                      <div class="back from-bottom">
+
+                                        <a>
+                                          <h2>Cocky Car</h2>
+                                        </a>
+                                        <div class="stores-btn">
+                                          <a href="https://play.google.com/store/apps/details?id=com.brgames.cockycar"
+                                            target="_blank">
+                                            <img src="./images/play-buttons.png" alt="" srcset="">
+                                          </a>
+                                          <a href="https://apps.apple.com/in/app/cocky-car/id1579058493"
+                                            target="_blank">
+                                            <img src="./images/store-buttons.png" alt="" srcset="">
+                                          </a>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!--__________________________________________________________________________________________________________________-->
+                              <!--__________________________________________________________________________________________________________________-->
+                              <!--__________________________________________________________________________________________________________________-->
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    </section>
+
+  </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bundle.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNGOsBBZo9vf0Tw4w6aJiilSTFVfQ5GPI"></script>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="js/works.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  overflow-x: hidden;
+  /* Hide scrollbars */
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnail {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
+  /* transition: 0.3s; */
+  min-width: 40%;
+  border: none;
+  /* border-radius: 5px; */
+  background-color: #eaf6e8;
+  min-height: 62vh;
+  max-height: 62vh;
+}
+
+.thumbnail-description {
+  padding: 4%;
+}
+
+/* .thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+  } */
+
+#thumbnail-label {
+  /* margin-top: -25px; */
+}
+
+.caption>h1 {
+  margin-top: -75px;
+}
+
+.cards {
+  padding: 36px;
+}
+
+/* .caption .card-footer {
+  padding-top: 56px;
+  margin-bottom: -70px;
+} */
+
+.card-footer {
+  /* padding-top: 56px;
+  margin-bottom: -70px; */
+  margin-top: -66px;
+  padding-left: 2rem;
+  background-color: #eaf6e8;
+}
+
+#navigation ul {
+  /*list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;*/
+  /* assumes you only want one row */
+}
+
+/* #navigation ul > li {
+  margin-left: 30px;
+  margin-right: 30px;
+} */
+
+.slide-wrap {
+  position: relative;
+  display: table;
+  width: 100% !important;
+}
+
+.list-inline a {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #76c164;
+}
+
+.list-inline a:hover {
+  font-weight: 400 !important;
+  letter-spacing: 0.2px;
+  color: grey;
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+} */
+
+/* ::-webkit-scrollbar-thumb {
+  background: #eaf6e8;
+  border-radius: 5px;
+} */
+
+@media screen and (max-width: 480px) {
+  .service-cards {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card-footer {
+    margin-top: -66px;
+    padding-left: 2rem;
+  }
+
+  #navbar .navigation-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thumbnail {
+    min-height: 100%;
+    max-height: 100%;
+    padding-bottom: 36px;
+  }
+
+  .not {
+    max-width: 20%;
+    float: right;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+  left: 55px;
+}
